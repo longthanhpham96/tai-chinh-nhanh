@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.flex-container {
+
+    border: 1px dotted black;
+background-color: #ffffff;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.flex-container .flex-item {
+    background: brown;
+    
+    text-align: text;
+    width: 340px;
+    height: 500px;
+    text-align: center;
+
+    
+}
+
+.flex-container .flex-item700height {
+    background: brown;
+    
+    text-align: text;
+    width: 340px;
+    height: 700px;
+    text-align: center;
+
+}
+
+/*Box so 1 */
+.clickbutton01 {
+    z-index: 1;
+transition: 0.3s;
+position: relative;
+
+top: 220px;
+right:0px;
+font-size: large;
+font-weight: bold;
+text-decoration: none;
+
+padding: 30px 95px 0px 100px;
+
+}
+
+.clickbutton01:hover {
+    z-index: 1;
+    transition: 0.3s;
+    position: relative;
+    
+    top: 220px;
+    right:0px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 33px 98px 3px 103px;
+    
+}
+
+
+
+#backgroundtamovn {
+    background-image: url(./Tamovn/background_no1.png);
+    background-size: 340px 500px;
+    background-repeat: no-repeat;
+}
+
+#clickbutton1 {
+    background-image: url(./Tamovn/Register_button.png);
+    background-repeat: no-repeat;
+    background-size: 199px 52px;
+    border-radius: 9px;
+}
+
+
+#clickbutton1:hover {
+    background-image: url(./Tamovn/Register_button.png);
+    background-repeat: no-repeat;
+    background-size: 202px 58px;
+    border-radius: 9px;
+
+}
+/*Box so 1 */
+
+/*Box so 2*/
+.clickbutton02 {
+    z-index: 1;
+transition: 0.3s;
+position: relative;
+
+top: 380px;
+right:0px;
+font-size: large;
+font-weight: bold;
+text-decoration: none;
+
+padding: 30px 95px 0px 100px;
+
+}
+
+.clickbutton02:hover {
+    z-index: 1;
+    transition: 0.3s;
+    position: relative;
+    
+    top: 380px;
+    right:0px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 33px 98px 3px 103px;
+    
+}
+
+
+
+#backgrounddoctordong {
+    background-image: url(./DoctorDong/BackgroundDRDong.png);
+    background-size: 340px 500px;
+    background-repeat: no-repeat;
+}
+
+#clickbutton2 {
+    background-image: url(./DoctorDong/RegisterDrDong.png);
+    background-repeat: no-repeat;
+    background-size: 199px 52px;
+    border-radius: 9px;
+}
+
+
+#clickbutton2:hover {
+    background-image: url(./DoctorDong/RegisterDrDong.png);
+    background-repeat: no-repeat;
+    background-size: 202px 58px;
+    border-radius: 9px;
+
+}
+/* Box so 2*/
+/* Box so 3 */
+
+.clickbutton03 {
+    z-index: 1;
+transition: 0.3s;
+position: relative;
+
+top: 320px;
+right:0px;
+font-size: large;
+font-weight: bold;
+text-decoration: none;
+
+padding: 30px 95px 0px 100px;
+
+}
+
+.clickbutton03:hover {
+    z-index: 1;
+    transition: 0.3s;
+    position: relative;
+    
+    top: 310px;
+    right:0px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 33px 98px 3px 103px;
+    
+}
+
+
+
+#backgroundsenmovn {
+    background-image: url(./Senmovn/BackgroundSenmo.png);
+    background-size: 340px 500px;
+    background-repeat: no-repeat;
+}
+
+#clickbutton3 {
+    background-image: url(./Senmovn/RegisterSenmo.png);
+    background-repeat: no-repeat;
+    background-size: 199px 52px;
+    border-radius: 9px;
+}
+
+
+#clickbutton3:hover {
+    background-image: url(./Senmovn/RegisterSenmo.png);
+    background-repeat: no-repeat;
+    background-size: 202px 58px;
+    border-radius: 9px;
+
+}
+/* Box so 3 */
+/* Box so 4 */
+.clickbutton04 {
+    z-index: 1;
+transition: 0.3s;
+position: relative;
+
+top: 380px;
+right:0px;
+font-size: large;
+font-weight: bold;
+text-decoration: none;
+
+padding: 30px 95px 0px 100px;
+
+}
+
+.clickbutton04:hover {
+    z-index: 1;
+    transition: 0.3s;
+    position: relative;
+    
+    top: 379px;
+    right:0px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 33px 98px 3px 103px;
+    
+}
+
+
+
+#backgroundavayvn {
+    background-image: url(./Avayvn/backgroundavay.png);
+    background-size: 340px 700px;
+    background-repeat: no-repeat;
+}
+
+#clickbutton4 {
+    background-image: url(./Avayvn/registeravay.png);
+    background-repeat: no-repeat;
+    background-size: 199px 52px;
+    border-radius: 9px;
+}
+
+
+#clickbutton4:hover {
+    background-image: url(./Avayvn/registeravay.png);
+    background-repeat: no-repeat;
+    background-size: 202px 58px;
+    border-radius: 9px;
+
+}
+/* Box so 4 */
+/* Box so 5 
+
+.clickbutton05 {
+    z-index: 1;
+transition: 0.3s;
+position: relative;
+
+top: 10px;
+right:0px;
+font-size: large;
+font-weight: bold;
+text-decoration: none;
+
+padding: 30px 95px 0px 100px;
+
+}
+
+.clickbutton05:hover {
+    z-index: 1;
+    transition: 0.3s;
+    position: relative;
+    
+    top: 10px;
+    right:0px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 33px 98px 3px 103px;
+    
+}
+
+
+
+#backgroundtienoi {
+    background-image: url(./tienoi/backgroundtienoi.png);
+    background-size: 340px 700px;
+    background-repeat: no-repeat;
+}
+
+#clickbutton5 {
+    background-image: url(./tienoi/register.png);
+    background-repeat: no-repeat;
+    background-size: 199px 52px;
+    border-radius: 9px;
+}
+
+
+#clickbutton5:hover {
+    background-image: url(./tienoi/register.png);
+    background-repeat: no-repeat;
+    background-size: 202px 58px;
+    border-radius: 9px;
+
+}
+*/
